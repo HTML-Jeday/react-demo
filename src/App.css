@@ -1,0 +1,45 @@
+.row{
+  display: flex;
+}
+.row span{
+  border: 1px solid #000;
+  width: 200px;
+  display: flex;
+  padding: 5px;
+}
+.bodyRow .row span:nth-child(3){
+  cursor: pointer;
+  position: relative;
+}
+.hideBlock{
+  display: none;
+  position: absolute;
+  right: -200%;
+  top: 0
+}
+.bodyRow .row span:nth-child(3):hover .hideBlock{
+  display:block;
+}
+
+.hideBlock span{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.hideBlock li{
+  list-style-type: none;
+
+}
+
+.gray{
+  background-color: gray;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
